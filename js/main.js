@@ -1,13 +1,13 @@
-console.log(12 * 12)
-console.log("abc" / 4)
+// console.log(12 * 12)
+// console.log("abc" / 4)
 
 // Boolean 1
 
-let A = +prompt('A ning qiymatini kiriting');
+// let A = +prompt('A ning qiymatini kiriting');
  
-let res = A % 2 == 0;
+// let res = A % 2 == 0;
 
-console.log(res);
+// console.log(res);
 
 // Boolean 2
 
@@ -83,7 +83,7 @@ console.log(res);
 // let B= +prompt('B ning qiymatini kiriting');
 // let C= +prompt('C ning qiymatini kiriting');
 
-// let res = A > 0 && B > 0 && C < 0  || B > 0 && A > 0 && C < 0 || C > 0 && A > 0 && B < 0;
+// let res = A > 0 && B > 0 && C < 0  || C > 0 && C > 0 && A < 0 || C > 0 && A > 0 && B < 0;
 
 // console.log(res);
 
@@ -160,13 +160,13 @@ console.log(res);
 
 // MISOL 1
 
-// let A = +prompt('A ning qiymatini kiriting');
-// let B = +prompt('B ning qiymatini kiriting');
+let A = + prompt('A ning qiymatini kiriting');
+let B = + prompt('B ning qiymatini kiriting');
 
 
-// let Y = - (B/2)*(Math.pow(A,2) + Math.pow(B, 2));
+let Y = - (B/2)*(Math.pow(A,2) + Math.pow(B, 2));
 
-// console.log(Y);
+console.log(Y);
 
 // MISOL 2
 
